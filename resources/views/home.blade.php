@@ -135,7 +135,15 @@
     <title>La Molisana - HOME</title>
 </head>
 <body>
-
+    <header>
+    <div id="logo"><img src="{{asset('img/marchio-sito-test.png')}}" alt="Logo"></div>
+        <nav><ul>
+            <li>Home</li>
+            <li>Prodotti</li>
+            <li>News</li>
+            </ul>
+        </nav>
+    </header>
     <h1>Prova</h1>
     
 </body>
