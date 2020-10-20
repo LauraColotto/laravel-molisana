@@ -85,6 +85,53 @@
     </main>
 
     {{-- //Main --}}
+
+    {{-- Footer --}}
+    <footer>
+      <div class="container-footer">
+        <div>
+          <img src="{{asset('img/marchio-sito-test.png')}}" alt="Logo"> 
+          <p>Lorem ipsum dolor, sit amet <br> consectetur adipisicing elit. Quasi quos, possimus,<br> 
+            recusandae <br> neque magnam, dignissimos at <br> praesentium eius molestiae necessitatibus aut <br> 
+            ullam veritatis quia? <br> Nesciunt eos at eum impedit <br> doloremque!</p>       
+        </div>
+        <div>
+          <h3>PASTIFICIO</h3>
+          <ul>
+            <li>Il Pastificio</li>
+            <li>Il Pastificio</li>
+            <li>Il Pastificio</li>
+            <li>Il Pastificio</li>
+            <li>Il Pastificio</li>
+            <li>Il Pastificio</li>
+            <li>Il Pastificio</li>
+          </ul>
+        </div>
+        <div>
+          <h3>PRODOTTI</h3>
+          <ul>
+            <li>Il Pastificio</li>
+            <li>Il Pastificio</li>
+            <li>Il Pastificio</li>
+            <li>Il Pastificio</li>
+            <li>Il Pastificio</li>
+            <li>Il Pastificio</li>
+            <li>Il Pastificio</li>
+          </ul>
+        </div>
+          <h3>COLLEZIONE DA CHEF</h3>
+          <ul>
+            <li>Il Pastificio</li>
+            <li>Il Pastificio</li>
+            <li>Il Pastificio</li>
+          </ul>
+        </div>
+
+
+      </div>
+    </footer>
+
+    {{-- //Footer --}}
   <script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>
