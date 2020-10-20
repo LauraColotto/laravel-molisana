@@ -45,40 +45,42 @@
 
     {{-- Main --}}
     <main>
-      @if (!empty($lunga))
-        <h2>Lunga</h2>
-        <ul>
-           @foreach ($lunga as $prodotto)
-             <li>
-             <img src="{{$prodotto['src']}}" alt="">
-             <h3>{{$prodotto["titolo"]}}</h3>
-             </li>                      
-          @endforeach
-        </ul>
-      @endif
-      @if (!empty($corta))
-        <h2>Corta</h2>
-        <ul>
-           @foreach ($corta as $prodotto)
-             <li>
-             <img src="{{$prodotto['src']}}" alt="">
-             <h3>{{$prodotto["titolo"]}}</h3>
-             </li>                      
-          @endforeach
-        </ul>
-      @endif
-      @if (!empty($cortissima))
-        <h2>Cortissima</h2>
-        <ul>
-           @foreach ($cortissima as $prodotto)
-             <li>
-             <img src="{{$prodotto['src']}}" alt="">
-             <h3>{{$prodotto["titolo"]}}</h3>
-             </li>                      
-          @endforeach
-        </ul>
-      @endif
+      <div class="container">
+        @if (!empty($lunga))
+          <h2>Lunga</h2>
+          <ul>
+            @foreach ($lunga as $prodotto)
+              <li>
+              <img src="{{$prodotto['src']}}" alt="">
+              <h3>{{$prodotto["titolo"]}}</h3>
+              </li>                      
+            @endforeach
+          </ul>
+        @endif
+        @if (!empty($corta))
+          <h2>Corta</h2>
+          <ul>
+            @foreach ($corta as $prodotto)
+              <li>
+              <img src="{{$prodotto['src']}}" alt="">
+              <h3>{{$prodotto["titolo"]}}</h3>
+              </li>                      
+            @endforeach
+          </ul>
+        @endif
+        @if (!empty($cortissima))
+          <h2>Cortissima</h2>
+          <ul>
+            @foreach ($cortissima as $prodotto)
+              <li>
+              <img src="{{$prodotto['src']}}" alt="">
+              <h3>{{$prodotto["titolo"]}}</h3>
+              </li>                      
+            @endforeach
+          </ul>
+        @endif
 
+      </div>
 
     </main>
 

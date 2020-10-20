@@ -1,8 +1,8 @@
-/* *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-} */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 ul {
   list-style: none;
@@ -14,13 +14,14 @@ a {
 
 header {
   width: 100%;
-  margin: 20px 0;
+  margin: 20px 0 0;
 }
 
 #logo {
   max-width: 200px;
   text-align: center;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 nav ul {
@@ -38,5 +39,28 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: #b3e5fc;
+}
+
+main {
+  width: 100%;
+  background-image: url("/img/fondo-pag-speciali.jpg");
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.container ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container ul li {
+  margin-right: 15px;
+}
+
+.container img {
+  max-height: 270px;
 }
 
